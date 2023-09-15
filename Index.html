@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Jogo da Velha</h1>
+        <p>Escolha uma opção:</p>
+        <button id="single-player">Jogar contra o computador</button>
+        <button id="multiplayer">Jogar multiplayer</button>
+    </div>
+
+    <div id="game-screen">
+        <h1>Jogo da Velha</h1>
+        <div id="board">
+            <!-- Tabuleiro do jogo aqui -->
+        </div>
+        <p id="result-message"></p>
+        <button id="restart-button">Reiniciar Jogo</button>
+        <button id="share-button">Compartilhar Jogo</button>
+        <button id="pause-music-button">Pausar Música</button>
+    </div>
+
+    <audio id="background-music" src="lofi-study-112191.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
